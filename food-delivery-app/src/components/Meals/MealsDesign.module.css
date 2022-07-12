@@ -1,0 +1,11 @@
+.name{
+    font-style: bold;
+    color:rgb(114, 133, 101);
+    opacity: 40%;
+    transform: rotateZ(-5deg) translateY(-3rem) translateX(-1rem);
+    margin: auto;
+    position: fixed;
+    margin-left: 50%;
+    padding-bottom: 50%;
+
+}
