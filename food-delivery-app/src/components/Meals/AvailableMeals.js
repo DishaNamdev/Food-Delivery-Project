@@ -36,6 +36,7 @@ const DUMMY_MEALS = [
 const AvailableMeals = () => {
   const mealsList = DUMMY_MEALS.map((meal) => (
     <MealItem
+      id = {meal.id} // this prop is furthre added for correct identification of the label that will be clicked or selected on MealItemprop.
       key={meal.id}
       name={meal.name}
       description={meal.description}

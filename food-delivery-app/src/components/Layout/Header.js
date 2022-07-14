@@ -8,7 +8,7 @@ const Header = props => {
         <header className={classes.header}>
             <h1> HungryHuman </h1>
             {/* <button> Cart </button> */}
-            <HeaderCartButton/>
+            <HeaderCartButton onClick = {props.onShowCart}/>
         </header>
             <div className = {classes['main-image']}> {/*this css class is written like becaue it contain a dash inside of it.*/}
                

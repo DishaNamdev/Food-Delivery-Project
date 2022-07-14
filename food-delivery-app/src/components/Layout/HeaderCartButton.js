@@ -7,7 +7,7 @@ import classes from "./HeaderCartButton.module.css";
 
 const HeaderCartButton = props => {
     return(
-        <button className={classes.button}>
+        <button className={classes.button} onClick={props.onClick}>
             <span className={classes.icon}>
                 <CartIcon/>
             </span>
@@ -18,3 +18,4 @@ const HeaderCartButton = props => {
 };
 
 export default HeaderCartButton;
+/* button tags by default has onClick prop so we set props.onClick to the button. */
