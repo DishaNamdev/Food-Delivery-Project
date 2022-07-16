@@ -11,6 +11,8 @@ const Cart = (props) => {
       )}
     </ul>
   );
+
+  
   return (
     <Modal onClose = {props.onClose}> {/* (3) */}
       {/* <div>*/}

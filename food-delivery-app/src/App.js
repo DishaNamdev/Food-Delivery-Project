@@ -20,7 +20,7 @@ function App(){
   return(
     <CartProvider>
        
-       {cartIsShown && <Cart onClose = {hideCartHandler}/>}
+       {cartIsShown && <Cart onClose = { hideCartHandler }/>}
        <Header onShowCart = { showCartHandler } />
        <main>
           <Meals/>   
@@ -35,7 +35,7 @@ function App(){
     //    </main>
     // </Fragment>
      );
-}
+} 
 
 export default App;
 
